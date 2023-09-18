@@ -1296,6 +1296,12 @@ body:hover>#pointer {
     .heade_menu{
         display: none;
     }
+    .menu{
+        position: sticky;
+        top: 0px;
+        background-color: #fff;
+        z-index: 99999;
+    }
 }
 
 @media (max-width: 768px) {
